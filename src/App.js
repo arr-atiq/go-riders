@@ -1,13 +1,42 @@
 import './App.css';
 import Header from './Components/Header/Header';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import Home from './Components/Home/Home';
+import Destination from './Components/Destination/Destination';
+import Login from './Components/Login/Login';
+import NotFound from './Components/NotFound/NotFound';
+
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header></Header>
-      <Home></Home>
+      <Router>
+        <Switch>
+          <Route path="/home">
+            <Home></Home>
+          </Route>
+          <Route path="/destination">
+            <Destination></Destination>
+          </Route>
+          <Route path="/login">
+            <Login></Login>
+          </Route>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
+          </Route>
+        </Switch>
+      </Router>
     </div>
+
   );
 }
 
