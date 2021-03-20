@@ -1,21 +1,21 @@
 let RiderData = [
     {
-        "id": 1,
+        "id": "BRXGEX01",
         "name": "Bike",
         "image": "https://i.ibb.co/1fTCVcJ/Frame.png"
     },
     {
-        "id": 2,
+        "id": "CRXGEX02",
         "name": "Car",
         "image": "https://i.ibb.co/r48qSxW/Frame-2.png"
     },
     {
-        "id": 3,
+        "id": "GRXGEX03",
         "name": "Bus",
         "image": "https://i.ibb.co/m91wW48/Frame-1.png"
     },
     {
-        "id": 4,
+        "id": "MRXGEX04",
         "name": "Metro Rail",
         "image": "https://i.ibb.co/wWTzDVQ/Group.png"
     }

@@ -1,4 +1,5 @@
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header';
 import {
   BrowserRouter as Router,
@@ -10,6 +11,7 @@ import Home from './Components/Home/Home';
 import Destination from './Components/Destination/Destination';
 import Login from './Components/Login/Login';
 import NotFound from './Components/NotFound/NotFound';
+import DisplayHome from './Components/DisplayHome/DisplayHome';
 
 
 function App() {
@@ -29,6 +31,9 @@ function App() {
           </Route>
           <Route exact path="/">
             <Home></Home>
+          </Route>
+          <Route path="/destination/:destinationId">
+            <DisplayHome></DisplayHome>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

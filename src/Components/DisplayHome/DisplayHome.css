@@ -2,11 +2,11 @@
    background-color: #C5EFFA;
    box-shadow: 5px 5px 15px lightslategray;
    border-radius: 10px;
-   padding: 20px;
+   padding: 40px;
 }
 .card-content img{
     width: 100%;
-    height: 170px;
+    height: 150px;
 }
 .card-content h5{
     margin: 0;
@@ -15,15 +15,18 @@
     width: 140px;
     font-size: 18px;
     margin-top: 30px;
+    margin-left: 10px;
     padding: 10px;
     cursor: pointer;
     background-color: lightslategray;
     border: none;
     outline: none;
-    color: white;
     border-radius: 10px;
+}
+.card-content button a{
+    text-decoration: none;
+    color: white;
 }
 .card-content button:hover{
     background-color: red;
-
 }
