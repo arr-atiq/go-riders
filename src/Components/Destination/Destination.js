@@ -9,9 +9,10 @@ const Destination = () => {
         <div classNameName="mapping-body">
             <div classNameName="mapping-field">
                 <div className="input-div">
+                    <input type="date"/>
                     <input type="text" placeholder="Pickup From" />
                     <input type="text" placeholder="Pickup To" />
-                    <input className="search-in" type="submit" value="Search" />
+                    <input className="search-in" type="submit" value="Search Location" />
                 </div>
                 <img className="map-img" src={image} alt="" />
             </div>
