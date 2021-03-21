@@ -86,3 +86,13 @@ span.psw {
   .label b{
       color: white;
   }
+
+  .google-btn button{
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 10px 15px 15px;
+    border: none;
+    cursor: pointer;
+    width: 470px;
+  }

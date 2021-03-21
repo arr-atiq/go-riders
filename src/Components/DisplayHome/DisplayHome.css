@@ -23,7 +23,7 @@
     outline: none;
     border-radius: 10px;
 }
-.card-content button a{
+.card-content button {
     text-decoration: none;
     color: white;
 }
