@@ -1,9 +1,25 @@
-h1{
+.not-found h1{
     text-align: center;
     margin-top: 100px;
-    color: red;
+    background-color: black;
+    width: 250px;
+    margin-left: 40%;
+    color: white;
+    padding: 15px;
 }
-h3{
+.not-found h3{
+    background-color: white;
     text-align: center;
+    width: 400px;
     color: blue;
+    margin-left: 35%;
+    padding: 15px;
+}
+@media screen and (max-width:600px){
+    .not-found h1{
+        margin-left: 20%;
+    }
+    .not-found h3{
+        margin-left: 10%;
+    }
 }

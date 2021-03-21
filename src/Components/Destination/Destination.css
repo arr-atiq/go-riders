@@ -1,0 +1,27 @@
+
+.map-form{
+    background-color: white;
+}
+.search-in{
+    width: 500px;
+    height: 60px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    outline: none;
+}
+.input-div{
+    width: 500px;
+}
+.map-img{
+    width: 500px;
+    margin-left: 50%;
+    margin-top: -150px;
+}
+@media screen and (max-width: 600px){
+    .map-img{
+        width: 500px;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+}

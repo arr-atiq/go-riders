@@ -8,6 +8,12 @@
     width: 100%;
     height: 150px;
 }
+@media screen and (max-width: 600px){
+    .card-content img{
+        width: 200px;
+        height: 150px;
+    }
+}
 .card-content h5{
     margin: 0;
 }

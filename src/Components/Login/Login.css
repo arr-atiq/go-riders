@@ -3,6 +3,16 @@ form{
     width: 500px;
     margin-left: 30%;
 }
+@media screen and (max-width: 600px){
+  form{
+    width: 400px;
+    margin-left: 10%;
+  }
+  .google-btn .small-btn{
+    width: 365px;
+  }
+
+}
 label{
     color: white;
 }
@@ -96,3 +106,4 @@ span.psw {
     cursor: pointer;
     width: 470px;
   }
+

@@ -136,7 +136,7 @@ function Login() {
                 </div>
 
                 <div className="google-btn">
-                    <button onClick={handleGoogle}>Sign In With Google</button>
+                    <button className="small-btn" onClick={handleGoogle}>Sign In With Google</button>
                 </div>
             </form>
         </div>

@@ -3,9 +3,9 @@ import './NotFound.css';
 
 const NotFound = () => {
     return (
-        <div>
-            <h1>Not Found Any Rides</h1>
-            <h3>Search Again!</h3>
+        <div className='not-found'>
+            <h1>Login First</h1>
+            <h3>Not Found Any Rides! </h3>
         </div>
     );
 };
